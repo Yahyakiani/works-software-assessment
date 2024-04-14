@@ -6,7 +6,9 @@ import 'dotenv/config';
 
 // Initialize Express App
 const app = express();
+const cors = require('cors');
 app.use(express.json());
+app.use(cors());
 
 const pool = new Pool({
     user: process.env.DB_USER,
