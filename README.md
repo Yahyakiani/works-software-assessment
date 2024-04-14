@@ -41,22 +41,5 @@ Below is a video demonstration of the frontend working in conjunction with the b
 - **Challenge**: Ensuring responsive and consistent UI across different devices.
 - **Solution**: Leveraged Tailwind CSS's responsive design utilities to create a flexible UI that adapts to various screen sizes.
 
-## Testing the Frontend
-
-### Overview
-Frontend testing ensures that the UI renders correctly and interacts as expected with user inputs and API calls. Our tests cover individual component functionalities and their integration within the application.
-
-### Technologies Used
-- **Jest**: For running the test suites.
-- **React Testing Library**: For rendering components in a test environment and interacting with them as users would.
-
-### Key Tests
-- **Component Rendering**: Verify that all components render without errors.
-- **User Interaction**: Simulate user actions like clicking and typing to ensure components respond appropriately.
-- **API Integration**: Mock API calls to ensure components correctly handle data fetching and updating.
-
-### Running the Tests
-To execute the frontend tests, navigate to your project directory in the terminal and use the following command:
-
-```bash
-npm run test
+- **Challenge**: TypeScript integration with React components.
+- **Solution**: Utilized TypeScript for type-checking and prop validation, ensuring robust code and preventing runtime errors.
