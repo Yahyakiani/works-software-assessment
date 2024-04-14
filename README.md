@@ -120,6 +120,12 @@ npm run test
 - **Solution:** Utilized async/await syntax and PostgreSQL's robust handling of concurrent transactions.
 
 
+### Jest Testing
+
+- **Test Cases:** Wrote test cases for all CRUD operations and error handling scenarios.
+![All tests passing](tests.png)
+
+
 ### Application Demo Video
 
 Here is a video demonstration of the frontend working with the backend, showcasing all the functionalities:
