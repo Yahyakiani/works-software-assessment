@@ -105,6 +105,10 @@ The API supports the following CRUD operations:
 ```bash
 npm run test
 ```
+#### Test Results
+
+![All tests passing](tests.png)
+
 ### Environment Variables
 
 - `DB_USER`: Database username
@@ -120,10 +124,6 @@ npm run test
 - **Solution:** Utilized async/await syntax and PostgreSQL's robust handling of concurrent transactions.
 
 
-### Jest Testing
-
-- **Test Cases:** Wrote test cases for all CRUD operations and error handling scenarios.
-![All tests passing](tests.png)
 
 
 ### Application Demo Video
