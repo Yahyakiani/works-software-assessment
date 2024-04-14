@@ -86,7 +86,8 @@ The API supports the following CRUD operations:
     }
 
 
-
+## Api Testing
+Api can be tested using **Postman** or any other API testing tool.
 
 ### Database Integration
 
@@ -130,3 +131,59 @@ npm run test
 
 Here is a video demonstration of the frontend working with the backend, showcasing all the functionalities:
 ![Demo Video](Demo.gif)
+
+
+## Project File Structure
+
+- `.env`: Environment variables for production
+- `.env.example`: Template for setting up environment variables
+- `.gitignore`: Specifies intentionally untracked files to ignore
+- `Database.sql`: SQL scripts for setting up the database schema
+- `Demo.gif`: Animated GIF showing a demo of the application
+- `jest.config.js`: Configuration for the Jest testing framework
+- `package-lock.json`: Automatically generated for any operations where npm modifies the node_modules tree
+- `package.json`: Lists the project dependencies and defines scripts
+- `README.md`: Detailed project documentation
+- `tests.png`: Image showing passing tests
+- `tree.log`: Log file from tree command, showing project structure
+- `tsconfig.json`: TypeScript compiler configuration file
+
+### src
+
+- `app.ts`: Sets up Express application and middleware
+- `index.ts`: Entry point for the application, connects to the database and listens on a port
+
+#### tests
+
+- `app.test.ts`: Contains Jest tests for the Express application
+
+## Installation and Setup
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/your-repo.git
+    cd your-repo
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Set up environment variables:
+   Copy `.env.example` to `.env` and update the values accordingly.
+
+4. Start the server:
+
+    ```bash
+    npm start
+    ```
+
+## Testing
+
+Run tests using:
+
+```bash
+npm run test
